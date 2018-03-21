@@ -1,27 +1,71 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.top-navbar {
     overflow: hidden;
-    background-color: #346c92;
+    background-color: #B5B5B5;
 }
 
-li {
-    float: left;
-}
 
-li a {
+.top-navbar a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
+.top-navbar a:hover:not(.active) {
+    color: #B5B3B3;
 }
+.navword{
+    padding: 18px 16px;
+    float: right;
+}
+.navborder{
+    border-left: 1px solid #9c9c9c;
+}
+input{
+    background-color: #E2E2E2;  
+}
+.round-edge{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.search-container {
+    border-radius: 10px;
+    float: left;
+    padding-left: 2%;
 
-.active {
-    background-color: #4CAF50;
+}
+.logosize{
+    padding-left: 5%;
+    float: left;
+    width: 40px;
+    padding-top: 5px;
+}
+.search-container button {
+    color: white;
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #8D8A8A;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.logo-align{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 5%;
+}
+body{
+    background-color: #F2F2F2;
 }
